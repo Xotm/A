@@ -15,7 +15,29 @@
       name: '',
       repo: ''
     }
+    
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script>
+    window.$docsify = {
+      loadSidebar: true
+    }
+  </script>
+  <script src="//unpkg.com/docsify"></script>
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
+    }
+  </script>
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+      subMaxLevel: 2
+    }
+  </script>
+  <script src="//unpkg.com/docsify"></script>
 </body>
 </html>
